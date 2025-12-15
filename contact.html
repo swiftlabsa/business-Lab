@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | SwiftLab SA</title>
+
+    <meta name="theme-color" content="#2672E4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/mylogo icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/mylogo icon.png">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/mylogo.png" alt="logo">
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="nav-links">
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="images/mylogo.png" alt="logo">
+            <span class="close-btn" onclick="toggleMenu()">✕</span>
+        </div>
+
+        <a href="services.html" onclick="closeMenu()">Services</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+
+    <!-- HERO -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contact SwiftLab SA</h1>
+            <p>
+                Let’s talk about your idea or project. Choose the easiest way to reach us.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT OPTIONS -->
+    <section>
+        <div class="container">
+        <div class="contact-grid">
+
+            <div class="contact-card">
+            <span>📧</span>
+            <h3>Email</h3>
+            <p>Send us a message anytime.</p>
+            <a href="mailto:swiftlabsa@gmail.com">swiftlabsa@gmail.com</a>
+            </div>
+
+            <div class="contact-card">
+            <span>📱</span>
+            <h3>WhatsApp</h3>
+            <p>Quick questions or project discussions.</p>
+            <a href="https://wa.me/27731422654">Chat on WhatsApp</a>
+            </div>
+
+            <div class="contact-card">
+            <span>🌍</span>
+            <h3>Location</h3>
+            <p>Serving clients remotely.</p>
+            <p>South Africa</p>
+            </div>
+
+        </div>
+
+        <div class="contact-note">
+            <h2>What Happens Next?</h2>
+            <p>
+            Once you reach out, we’ll review your request, ask a few clarifying questions if needed,
+            and guide you on the next steps — simple and stress-free.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <div class="footer-logo">
+                    <img src="images/mylogo.png" alt="SwiftLab SA Logo">
+                </div>
+                <p>Email: <a href="mailto:swiftlabsa@gmail.com">swiftlabsa@gmail.com</a></p>
+                <p>WhatsApp: <a href="https://wa.me/27731422654">+27 73 142 2654</a></p>
+                <p>Address: Diepsloot 2189, Randburg, South Africa </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Social Links</h3>
+                <div class="links-container">
+                    <a href="https://wa.me/27731422654"><p>WhatsApp</p></a>
+                    <a href="https://www.facebook.com/profile.php?id=61584962043567"><p>Facebook</p></a>
+                    <a href="index.html"><p>LinkedIn</p></a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="copyright-container">
+            <p>&copy; 2025 SwiftLab SA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

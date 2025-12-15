@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | SwiftLab SA</title>
+
+    <meta name="theme-color" content="#2672E4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/mylogo icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/mylogo icon.png">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/mylogo.png" alt="logo">
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="nav-links">
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="images/mylogo.png" alt="logo">
+            <span class="close-btn" onclick="toggleMenu()">✕</span>
+        </div>
+
+        <a href="services.html" onclick="closeMenu()">Services</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+    </div>
+
+        <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+
+    <!-- HERO -->
+    <section class="services-hero">
+        <div class="container">
+        <h1>Our Services</h1>
+        <p>
+            Practical digital solutions designed to help individuals and businesses grow efficiently.
+        </p>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section>
+        <div class="container">
+        <div class="services-grid">
+
+            <div class="service-card">
+            <span>🌐</span>
+            <h3>Website Design</h3>
+            <p>
+                Clean, responsive, and professional websites built to clearly represent your business.
+            </p>
+            <ul>
+                <li>Business websites</li>
+                <li>Landing pages</li>
+                <li>Mobile-friendly design</li>
+            </ul>
+            </div>
+
+            <div class="service-card">
+            <span>⚙️</span>
+            <h3>Automation Solutions</h3>
+            <p>
+                Simple automation tools to help streamline repetitive tasks and workflows.
+            </p>
+            <ul>
+                <li>Process automation</li>
+                <li>Task simplification</li>
+                <li>Productivity tools</li>
+            </ul>
+            </div>
+
+            <div class="service-card">
+            <span>🧩</span>
+            <h3>Custom Digital Solutions</h3>
+            <p>
+                Tailored digital solutions built around your specific needs and goals.
+            </p>
+            <ul>
+                <li>Problem-focused solutions</li>
+                <li>Custom workflows</li>
+                <li>Scalable designs</li>
+            </ul>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section>
+        <div class="container">
+        <div class="process">
+            <h2 style="text-align:center">How We Work</h2>
+            <p style="text-align:center; max-width:650px; margin:0 auto">
+            A simple and transparent approach focused on clarity and results.
+            </p>
+
+            <div class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Understand</h4>
+                <p>We discuss your needs and goals.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>Design</h4>
+                <p>We plan and structure the solution.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Build</h4>
+                <p>We create and refine the solution.</p>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <h4>Deliver</h4>
+                <p>You receive a ready-to-use solution.</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="services-cta">
+            <h2>Have a Project in Mind?</h2>
+            <p>Let’s discuss how SwiftLab SA can help.</p>
+            <a href="contact.html">Get in Touch</a>
+        </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <div class="footer-logo">
+                    <img src="images/mylogo.png" alt="SwiftLab SA Logo">
+                </div>
+                <p>Email: <a href="mailto:swiftlabsa@gmail.com">swiftlabsa@gmail.com</a></p>
+                <p>WhatsApp: <a href="https://wa.me/2773">+27 73 142 2654</a></p>
+                <p>Address: Diepsloot 2189, Randburg, South Africa </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Social Links</h3>
+                <div class="links-container">
+                    <a href="https://wa.me/27600000000"><p>WhatsApp</p></a>
+                    <a href="https://www.facebook.com/profile.php?id=61584962043567"><p>Facebook</p></a>
+                    <a href="index.html"><p>LinkedIn</p></a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="copyright-container">
+            <p>&copy; 2025 SwiftLab SA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us | SwiftLab SA</title>
+    <link rel="stylesheet" href="styles/about.css">
+
+    <meta name="theme-color" content="#2672E4">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="images/mylogo icon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/mylogo icon.png">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/mylogo.png" alt="logo">
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="nav-links">
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <!-- Hamburger -->
+        <div class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <img src="images/mylogo.png" alt="logo">
+            <span class="close-btn" onclick="toggleMenu()">✕</span>
+        </div>
+
+        <a href="services.html" onclick="closeMenu()">Services</a>
+        <a href="about.html" onclick="closeMenu()">About</a>
+        <a href="contact.html" onclick="closeMenu()">Contact</a>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closeMenu()"></div>
+
+
+<!-- ABOUT HERO -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>About SwiftLab SA</h1>
+            <p>
+            Building practical, reliable, and accessible digital solutions for individuals and businesses.
+            </p>
+        </div>
+    </section>
+
+    <!-- STORY -->
+    <section>
+        <div class="container">
+            <div class="story">
+            <div>
+                <h2>Our Story</h2>
+                <p>
+                SwiftLab SA was founded with a simple goal: to make technology useful, affordable, and accessible.
+                We understand that many individuals and small businesses need digital solutions without complexity
+                or expensive tools.
+                </p>
+                <p>
+                By focusing on clean design, automation, and problem-solving, we help clients save time and
+                operate more efficiently using modern technology.
+                </p>
+            </div>
+
+            <div class="story-card">
+                <h3>What We Do</h3>
+                <p>
+                We design and build websites, digital systems, and automation solutions that are tailored
+                to real business needs. Every project is approached with clarity, structure, and long-term value in mind.
+                </p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- VALUES -->
+    <section>
+        <div class="container">
+            <h2>Our Core Values</h2>
+            <p>
+            These principles guide how we work and how we serve our clients.
+            </p>
+
+            <div class="values">
+                <div class="value">
+                    <span>🤝</span>
+                    <h3>Integrity</h3>
+                    <p>Honest communication and transparent processes at every stage.</p>
+                </div>
+
+                <div class="value">
+                    <span>🎯</span>
+                    <h3>Purpose</h3>
+                    <p>Every solution is built to solve a real problem, not just look good.</p>
+                </div>
+
+                <div class="value">
+                    <span>⚙️</span>
+                    <h3>Quality</h3>
+                    <p>We focus on clean, reliable, and maintainable solutions.</p>
+                </div>
+
+                <div class="value">
+                    <span>🚀</span>
+                    <h3>Growth</h3>
+                    <p>We grow by helping our clients grow through technology.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- MISSION -->
+        <section>
+        <div class="container">
+            <div class="mission">
+            <h2>Our Mission</h2>
+            <p>
+                To empower individuals and businesses with practical digital tools that improve productivity,
+                communication, and efficiency — without unnecessary complexity.
+            </p>
+            </div>
+
+            <div class="about-cta">
+                <h2>Want to Work With Us?</h2>
+                <p>Let’s build something meaningful together.</p>
+                <a href="contact.html">Contact SwiftLab SA</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <div class="footer-logo">
+                    <img src="images/mylogo.png" alt="SwiftLab SA Logo">
+                </div>
+                <p>Email: <a href="mailto:swiftlabsa@gmail.com">swiftlabsa@gmail.com</a></p>
+                <p>WhatsApp: <a href="https://wa.me/27731422654">+27 73 142 2654</a></p>
+                <p>Address: Diepsloot 2189, Randburg, South Africa </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Social Links</h3>
+                <div class="links-container">
+                    <a href="https://wa.me/27731422654"><p>WhatsApp</p></a>
+                    <a href="https://www.facebook.com/profile.php?id=61584962043567"><p>Facebook</p></a>
+                    <a href="index.html"><p>LinkedIn</p></a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="copyright-container">
+            <p>&copy; 2025 SwiftLab SA. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts/scripts.js"></script>
+
+</body>
+</html>
