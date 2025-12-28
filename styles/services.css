@@ -198,6 +198,7 @@ padding: 2.5rem;
 border-radius: 18px;
 box-shadow: 0 15px 35px rgba(0,0,0,0.07);
 transition: transform 0.25s ease, box-shadow 0.25s ease;
+border-left: 4px solid var(--primary);
 }
 
 .service-card:hover {
@@ -268,6 +269,11 @@ padding: 0.9rem 2.3rem;
 border-radius: 999px;
 text-decoration: none;
 font-weight: 600;
+transition: transform 0.3s;
+}
+
+.services-cta a:hover {
+  transform: translateY(-2px);
 }
 
 @media (max-width: 600px) {
